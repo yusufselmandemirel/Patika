@@ -1,0 +1,21 @@
+Proje 2 - Merge Sort
+
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+Cevap:
+/Elemanları tekli ayırıyorum
+
+[16, 21, 11]     [8, 12, 22]
+[16]     [21, 11]     [8]     [12, 22]
+[16]     [21]     [11]     [8]     [12]     [22]
+
+/küçük olan sağa gelecek şekilde 2li grupluyorum
+
+[16,21]     [8,11]      [12, 22]
+[8, 11, 16, 21]    [12, 22]
+[8, 11, 12, 16, 21, 22]
+
+2^x= n, O(logn)
